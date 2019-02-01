@@ -1,0 +1,86 @@
+ @import url(https://rauenzi.github.io/Nox/release/import.css);
+ @import url('https://satoru8.github.io/Addons/Emoji/emojipicker.css');
+
+/*No Gif/Gift Button*/
+.buttonContainer-21MN7J, .buttonWrapper-1ZmCpA, .gifFavoriteButton-1gYkEU, .pc-gifFavoriteButton, .size-22oTjg, .gifFavoriteButton-2UvP3Q, .pc-gifFavoriteButton, .smallCarousel-3UDi9v {display: none}
+
+/*Get Rid of Blocked Messages*/
+.messageGroupBlocked-3wrQQX ,
+.messageGroupBlockedBtn-1PBBh- {display:none}
+
+/*No User Notes + Wordmark*/
+.note-3kmerW, .userInfoSectionHeader-CBvMDh, .note-3HfJZ5, .wordmark-2iDDfm {display:none}
+
+/*Some Emoji Picker Code*/
+:root {
+
+    --epHeight: 400px ;   /* EmojiPicker Height. Default: 400px, Original:325px */
+    --epWidth: 450px ;    /* EmojiPicker Width. Default: 450px, Original:345px */
+
+    --emojiSize: 2em ;      /* Chat emoji size */
+
+    --epItemW: 8.5% ; /* PickerItemWidth. Only change this if you know what you are doing. */
+}
+
+/*24/7 White Badges*/
+[class*="profileBadgeHypesquad-"] {
+  background-image: url("https://canary.discordapp.com/assets/3a050fcc884255231b99b7033c776070.svg") !important;
+}
+[class*="profileBadgePremium"] {
+  background-image: url("https://canary.discordapp.com/assets/379d2b3171722ef8be494231234da5d1.svg") !important;
+}
+[class*="profileBadgeEarlySupporter"] {
+  background-image: url("https://canary.discordapp.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg") !important;
+}
+[class*="profileBadgePartner"] {
+  background-image: url("https://canary.discordapp.com/assets/a0e288a458c48dfcf548dadc277e42e6.svg") !important;
+}
+[class*="profileBadgeStaff"] {
+  background-image: url("https://canary.discordapp.com/assets/7cfd90c8062139e4804a1fa59f564731.svg") !important;
+}
+[class*="profileBadgeBugHunter"] {
+  background-image: url("https://canary.discordapp.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg") !important;
+}
+[class*="profileBadgeHypeSquadOnlineHouse1"] {
+  background-image: url("https://canary.discordapp.com/assets/1115767aed344e96a27a12e97718c171.svg") !important;
+}
+[class*="profileBadgeHypeSquadOnlineHouse2"] {
+  background-image: url("https://canary.discordapp.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg") !important;
+}
+[class*="profileBadgeHypeSquadOnlineHouse3"] {
+  background-image: url("https://canary.discordapp.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg") !important;
+}
+.powercord-badge {
+  filter: brightness(100);
+}
+
+/*Material Embeds*/
+.embed-IeVjo6:hover {
+    -webkit-transform: scale(1.03) !important;
+    transform: scale(1.03) !important;
+}
+.theme-dark .embedPill-1Zntps {
+    height: calc(100% - 20px) !important;
+    position: absolute !important;
+    left: 6px !important;
+    border-radius: 50px !important;
+    width: 5px !important;
+}
+.embed-IeVjo6 {
+    background-color: rgba(0, 0, 0, 0.66) !important;
+    border-color: rgba(0, 0, 0, 0.66) !important;
+}
+.embed-IeVjo6 {
+    border: 1px solid hsla(0,0%,80%,.3);
+    padding: 8px 10px !important;
+    -webkit-transition: 200ms cubic-bezier(.2, .11, 0, 1);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+    box-shadow: 2px 2px 10px #0c0c0c !important;
+    border-radius:5px;
+}
+.theme-dark .embedInner-1-fpTo {
+    background:transparent !important;
+    border:none !important;
+}
+
+/*Testing*/
